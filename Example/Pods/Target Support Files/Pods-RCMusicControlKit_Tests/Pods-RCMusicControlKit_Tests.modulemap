@@ -1,0 +1,6 @@
+framework module Pods_RCMusicControlKit_Tests {
+  umbrella header "Pods-RCMusicControlKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

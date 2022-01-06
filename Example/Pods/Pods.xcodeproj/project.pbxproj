@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C2B9C8CE8B78C2CD7AB89F290C0ED8A /* Pods-RCMusicControlKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C884CAFC3BE81066C4438B82757A7B0F /* Pods-RCMusicControlKit_Example-dummy.m */; };
+		1F239B4A27EC3783C3E569F84358AD31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		22C676E9D5B872AE168D0A8F6B3ED40C /* Pods-RCMusicControlKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D052BCA219BE165E6C433E26C8D15128 /* Pods-RCMusicControlKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30B7B21F47E5794C70C9F10CBCA87102 /* Pods-RCMusicControlKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26517481CABCC2E176CA8E4082CC564B /* Pods-RCMusicControlKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		533D699DC23996F7B494C46EB1F59E89 /* Pods-RCMusicControlKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7917CF89443434398FE050C67BA654F1 /* Pods-RCMusicControlKit_Tests-dummy.m */; };
+		56D07B24BE3ADA8AD71116C4C744B096 /* RCMusicControlKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D028174C2D9C8789FF02C79CDF56E890 /* RCMusicControlKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D5E92099FDA82DF0E6957CEDA2E0205 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		684F6B91D79EB60A203D34F7FA216336 /* RCMusicControlKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D64F1D17EB5E4FE9D0FA4F1D4C2705DE /* RCMusicControlKit-dummy.m */; };
+		DC8B4169A293B77593814FEA1534CF4E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B415EB9EF93A0654DACCFB48123C155 /* ReplaceMe.m */; };
+		DF7A5B4AE0EE92D23C3DB89DE704F535 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EC3EFEA33F854B81FA584B1025703DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE9E1D388B328EACF3887B7D945D2C71;
+			remoteInfo = RCMusicControlKit;
+		};
+		CD415F5D4967B278FA221A4F45D881C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 660C2943090DCF286EA1102F9A5E5EF8;
+			remoteInfo = "Pods-RCMusicControlKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		075EBFC74E67E28E3823F6829B5D123B /* Pods-RCMusicControlKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RCMusicControlKit_Example"; path = Pods_RCMusicControlKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E040042E699B4FAA8D64D285BEC567 /* Pods-RCMusicControlKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RCMusicControlKit_Example.modulemap"; sourceTree = "<group>"; };
+		26517481CABCC2E176CA8E4082CC564B /* Pods-RCMusicControlKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RCMusicControlKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		29DC94C0FE55AFDA2452B35C70002B2E /* RCMusicControlKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RCMusicControlKit.release.xcconfig; sourceTree = "<group>"; };
+		2C717E2A23C74A9911A136A6E2F3881D /* Pods-RCMusicControlKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCMusicControlKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		320E700E2A1C5F8B2C49EE8B36A6753D /* Pods-RCMusicControlKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCMusicControlKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		39154AD9630AB9971AF77D40F166B14F /* Pods-RCMusicControlKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCMusicControlKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D91FDF50EB990CEA413CFA5215F2D8A /* Pods-RCMusicControlKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCMusicControlKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		525B489BB8480EE58A42F90FB1D2992D /* RCMusicControlKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RCMusicControlKit.debug.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7917CF89443434398FE050C67BA654F1 /* Pods-RCMusicControlKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RCMusicControlKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		7B415EB9EF93A0654DACCFB48123C155 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = RCMusicControlKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		82E50066F0EFD459E868596D9526E296 /* Pods-RCMusicControlKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RCMusicControlKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8F6B16444006DD5E1674BE96CF4FD05D /* Pods-RCMusicControlKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCMusicControlKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		92FA68B5409865BCC4B1EA2CF330A629 /* Pods-RCMusicControlKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCMusicControlKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9C69ADC67D7CF0628926671DB17BED0B /* RCMusicControlKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RCMusicControlKit.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2750A0E23E7D95CEFB0E9C40C73073B /* Pods-RCMusicControlKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCMusicControlKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		B0C80AAC0735EA190FF53A81F5B3D40A /* Pods-RCMusicControlKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RCMusicControlKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B19043D7D80CE04946D6AE70F450DEE6 /* RCMusicControlKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RCMusicControlKit; path = RCMusicControlKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D00FDAD88D22E96514696888C7A559 /* RCMusicControlKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCMusicControlKit-prefix.pch"; sourceTree = "<group>"; };
+		BE282F51CEAD82D4AF34733CF9D9D873 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C562EFE22EFF03E588EC15A4978A30D1 /* Pods-RCMusicControlKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCMusicControlKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C884CAFC3BE81066C4438B82757A7B0F /* Pods-RCMusicControlKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RCMusicControlKit_Example-dummy.m"; sourceTree = "<group>"; };
+		C9D18B98901D9652CD79277B4ED0443B /* Pods-RCMusicControlKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCMusicControlKit_Example-Info.plist"; sourceTree = "<group>"; };
+		CE7B3965F7003D6F206CFD22626B0533 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D028174C2D9C8789FF02C79CDF56E890 /* RCMusicControlKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCMusicControlKit-umbrella.h"; sourceTree = "<group>"; };
+		D052BCA219BE165E6C433E26C8D15128 /* Pods-RCMusicControlKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RCMusicControlKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		D4F3B894AB4F620C5130C5F972EA46E6 /* Pods-RCMusicControlKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RCMusicControlKit_Tests.modulemap"; sourceTree = "<group>"; };
+		D64F1D17EB5E4FE9D0FA4F1D4C2705DE /* RCMusicControlKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RCMusicControlKit-dummy.m"; sourceTree = "<group>"; };
+		ED538580BEB925CB1C1FED9A80BFEC5E /* Pods-RCMusicControlKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RCMusicControlKit_Tests"; path = Pods_RCMusicControlKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4EB7D1152FF2B4E934BD1D4869BD06A /* RCMusicControlKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RCMusicControlKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F8B3CC6A02DE34C3E9DCE45099A043AB /* RCMusicControlKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RCMusicControlKit-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E90377F5F023D07DFD9EF902D5E49C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7A5B4AE0EE92D23C3DB89DE704F535 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62D4C33DACF7FF35E17616C2EA8AB91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5E92099FDA82DF0E6957CEDA2E0205 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA99A9BAC956CA33FDDB9BE1DF8F88DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F239B4A27EC3783C3E569F84358AD31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F18554F881282419D8BA4684E8F5B36 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CE7B3965F7003D6F206CFD22626B0533 /* LICENSE */,
+				F4EB7D1152FF2B4E934BD1D4869BD06A /* RCMusicControlKit.podspec */,
+				BE282F51CEAD82D4AF34733CF9D9D873 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5BBE2F56759B25EE666BE202D0E919C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				075EBFC74E67E28E3823F6829B5D123B /* Pods-RCMusicControlKit_Example */,
+				ED538580BEB925CB1C1FED9A80BFEC5E /* Pods-RCMusicControlKit_Tests */,
+				B19043D7D80CE04946D6AE70F450DEE6 /* RCMusicControlKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9096D33B7F9FB89933DC7ECD27A2A3E7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C69ADC67D7CF0628926671DB17BED0B /* RCMusicControlKit.modulemap */,
+				D64F1D17EB5E4FE9D0FA4F1D4C2705DE /* RCMusicControlKit-dummy.m */,
+				F8B3CC6A02DE34C3E9DCE45099A043AB /* RCMusicControlKit-Info.plist */,
+				B9D00FDAD88D22E96514696888C7A559 /* RCMusicControlKit-prefix.pch */,
+				D028174C2D9C8789FF02C79CDF56E890 /* RCMusicControlKit-umbrella.h */,
+				525B489BB8480EE58A42F90FB1D2992D /* RCMusicControlKit.debug.xcconfig */,
+				29DC94C0FE55AFDA2452B35C70002B2E /* RCMusicControlKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RCMusicControlKit";
+			sourceTree = "<group>";
+		};
+		974EE7175210FBD26223F087400940B3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F97DCE4612F14032F0F080136969D36D /* RCMusicControlKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CE9D201B6C40746B8AA541B9F7BB6E4C /* Pods-RCMusicControlKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				10E040042E699B4FAA8D64D285BEC567 /* Pods-RCMusicControlKit_Example.modulemap */,
+				82E50066F0EFD459E868596D9526E296 /* Pods-RCMusicControlKit_Example-acknowledgements.markdown */,
+				C562EFE22EFF03E588EC15A4978A30D1 /* Pods-RCMusicControlKit_Example-acknowledgements.plist */,
+				C884CAFC3BE81066C4438B82757A7B0F /* Pods-RCMusicControlKit_Example-dummy.m */,
+				92FA68B5409865BCC4B1EA2CF330A629 /* Pods-RCMusicControlKit_Example-frameworks.sh */,
+				C9D18B98901D9652CD79277B4ED0443B /* Pods-RCMusicControlKit_Example-Info.plist */,
+				D052BCA219BE165E6C433E26C8D15128 /* Pods-RCMusicControlKit_Example-umbrella.h */,
+				320E700E2A1C5F8B2C49EE8B36A6753D /* Pods-RCMusicControlKit_Example.debug.xcconfig */,
+				3D91FDF50EB990CEA413CFA5215F2D8A /* Pods-RCMusicControlKit_Example.release.xcconfig */,
+			);
+			name = "Pods-RCMusicControlKit_Example";
+			path = "Target Support Files/Pods-RCMusicControlKit_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				974EE7175210FBD26223F087400940B3 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5BBE2F56759B25EE666BE202D0E919C2 /* Products */,
+				EEB2605EE8D4D41A9712B1032C84B1A8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEB2605EE8D4D41A9712B1032C84B1A8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE9D201B6C40746B8AA541B9F7BB6E4C /* Pods-RCMusicControlKit_Example */,
+				FC44FC6B7BEF19638B26D8FB12C1DFAA /* Pods-RCMusicControlKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F97DCE4612F14032F0F080136969D36D /* RCMusicControlKit */ = {
+			isa = PBXGroup;
+			children = (
+				7B415EB9EF93A0654DACCFB48123C155 /* ReplaceMe.m */,
+				0F18554F881282419D8BA4684E8F5B36 /* Pod */,
+				9096D33B7F9FB89933DC7ECD27A2A3E7 /* Support Files */,
+			);
+			name = RCMusicControlKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FC44FC6B7BEF19638B26D8FB12C1DFAA /* Pods-RCMusicControlKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D4F3B894AB4F620C5130C5F972EA46E6 /* Pods-RCMusicControlKit_Tests.modulemap */,
+				B0C80AAC0735EA190FF53A81F5B3D40A /* Pods-RCMusicControlKit_Tests-acknowledgements.markdown */,
+				8F6B16444006DD5E1674BE96CF4FD05D /* Pods-RCMusicControlKit_Tests-acknowledgements.plist */,
+				7917CF89443434398FE050C67BA654F1 /* Pods-RCMusicControlKit_Tests-dummy.m */,
+				A2750A0E23E7D95CEFB0E9C40C73073B /* Pods-RCMusicControlKit_Tests-Info.plist */,
+				26517481CABCC2E176CA8E4082CC564B /* Pods-RCMusicControlKit_Tests-umbrella.h */,
+				39154AD9630AB9971AF77D40F166B14F /* Pods-RCMusicControlKit_Tests.debug.xcconfig */,
+				2C717E2A23C74A9911A136A6E2F3881D /* Pods-RCMusicControlKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-RCMusicControlKit_Tests";
+			path = "Target Support Files/Pods-RCMusicControlKit_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1C041AD5446BCF3EDD3A819C0E2A430B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D07B24BE3ADA8AD71116C4C744B096 /* RCMusicControlKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD75AA8DD53E44C7F7FEE8277AD0FAE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B7B21F47E5794C70C9F10CBCA87102 /* Pods-RCMusicControlKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F32A2C5233C9B45331F26A59A62F42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C676E9D5B872AE168D0A8F6B3ED40C /* Pods-RCMusicControlKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5EF4CDBC99560C25564A3906989BAA8F /* Pods-RCMusicControlKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4879E9D8C3E1E939EBC824C9A978368 /* Build configuration list for PBXNativeTarget "Pods-RCMusicControlKit_Tests" */;
+			buildPhases = (
+				BD75AA8DD53E44C7F7FEE8277AD0FAE5 /* Headers */,
+				B178713EFA330EB272BDCA96AB4C4840 /* Sources */,
+				F62D4C33DACF7FF35E17616C2EA8AB91 /* Frameworks */,
+				5C332CD4103920FC45600CD5388B9114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F0C0D6897CA9479213B3601CED7EE9C /* PBXTargetDependency */,
+			);
+			name = "Pods-RCMusicControlKit_Tests";
+			productName = Pods_RCMusicControlKit_Tests;
+			productReference = ED538580BEB925CB1C1FED9A80BFEC5E /* Pods-RCMusicControlKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		660C2943090DCF286EA1102F9A5E5EF8 /* Pods-RCMusicControlKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26187D1FE4FFFAA7C6EF7B8A46579001 /* Build configuration list for PBXNativeTarget "Pods-RCMusicControlKit_Example" */;
+			buildPhases = (
+				F1F32A2C5233C9B45331F26A59A62F42 /* Headers */,
+				040527D2BADEB05114A1730FF648B4C4 /* Sources */,
+				FA99A9BAC956CA33FDDB9BE1DF8F88DC /* Frameworks */,
+				F20EDA9FC9E4B00BF144D0F82726C336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E073E8D0930D3C07701C3B5FB352ACE5 /* PBXTargetDependency */,
+			);
+			name = "Pods-RCMusicControlKit_Example";
+			productName = Pods_RCMusicControlKit_Example;
+			productReference = 075EBFC74E67E28E3823F6829B5D123B /* Pods-RCMusicControlKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE9E1D388B328EACF3887B7D945D2C71 /* RCMusicControlKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7F396D0956E2696BEEB5BBB5A428D85 /* Build configuration list for PBXNativeTarget "RCMusicControlKit" */;
+			buildPhases = (
+				1C041AD5446BCF3EDD3A819C0E2A430B /* Headers */,
+				435311DF3CD6763D55A88DF9F91110C9 /* Sources */,
+				5E90377F5F023D07DFD9EF902D5E49C9 /* Frameworks */,
+				CF2E948A45392120B9D2543B26590441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCMusicControlKit;
+			productName = RCMusicControlKit;
+			productReference = B19043D7D80CE04946D6AE70F450DEE6 /* RCMusicControlKit */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5BBE2F56759B25EE666BE202D0E919C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				660C2943090DCF286EA1102F9A5E5EF8 /* Pods-RCMusicControlKit_Example */,
+				5EF4CDBC99560C25564A3906989BAA8F /* Pods-RCMusicControlKit_Tests */,
+				BE9E1D388B328EACF3887B7D945D2C71 /* RCMusicControlKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C332CD4103920FC45600CD5388B9114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2E948A45392120B9D2543B26590441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20EDA9FC9E4B00BF144D0F82726C336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040527D2BADEB05114A1730FF648B4C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2B9C8CE8B78C2CD7AB89F290C0ED8A /* Pods-RCMusicControlKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435311DF3CD6763D55A88DF9F91110C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684F6B91D79EB60A203D34F7FA216336 /* RCMusicControlKit-dummy.m in Sources */,
+				DC8B4169A293B77593814FEA1534CF4E /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B178713EFA330EB272BDCA96AB4C4840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533D699DC23996F7B494C46EB1F59E89 /* Pods-RCMusicControlKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F0C0D6897CA9479213B3601CED7EE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RCMusicControlKit_Example";
+			target = 660C2943090DCF286EA1102F9A5E5EF8 /* Pods-RCMusicControlKit_Example */;
+			targetProxy = CD415F5D4967B278FA221A4F45D881C9 /* PBXContainerItemProxy */;
+		};
+		E073E8D0930D3C07701C3B5FB352ACE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RCMusicControlKit;
+			target = BE9E1D388B328EACF3887B7D945D2C71 /* RCMusicControlKit */;
+			targetProxy = 0EC3EFEA33F854B81FA584B1025703DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4FCE025528BA6BDD658A08D2B9D10F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29DC94C0FE55AFDA2452B35C70002B2E /* RCMusicControlKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RCMusicControlKit/RCMusicControlKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RCMusicControlKit/RCMusicControlKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RCMusicControlKit/RCMusicControlKit.modulemap";
+				PRODUCT_MODULE_NAME = RCMusicControlKit;
+				PRODUCT_NAME = RCMusicControlKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A50BA57EC55EE82596E5ECD2529E5CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C717E2A23C74A9911A136A6E2F3881D /* Pods-RCMusicControlKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RCMusicControlKit_Tests/Pods-RCMusicControlKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RCMusicControlKit_Tests/Pods-RCMusicControlKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		812A993637FB13A33B80B30D7B08BBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 320E700E2A1C5F8B2C49EE8B36A6753D /* Pods-RCMusicControlKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RCMusicControlKit_Example/Pods-RCMusicControlKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RCMusicControlKit_Example/Pods-RCMusicControlKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5E65A1B14848B63AF3F7BBCA3E044E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39154AD9630AB9971AF77D40F166B14F /* Pods-RCMusicControlKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RCMusicControlKit_Tests/Pods-RCMusicControlKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RCMusicControlKit_Tests/Pods-RCMusicControlKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC4B486450BB9E4BDC748FEBEB5800F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D91FDF50EB990CEA413CFA5215F2D8A /* Pods-RCMusicControlKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RCMusicControlKit_Example/Pods-RCMusicControlKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RCMusicControlKit_Example/Pods-RCMusicControlKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F797E28DD32C5CB9B806374013E22D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 525B489BB8480EE58A42F90FB1D2992D /* RCMusicControlKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RCMusicControlKit/RCMusicControlKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RCMusicControlKit/RCMusicControlKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RCMusicControlKit/RCMusicControlKit.modulemap";
+				PRODUCT_MODULE_NAME = RCMusicControlKit;
+				PRODUCT_NAME = RCMusicControlKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26187D1FE4FFFAA7C6EF7B8A46579001 /* Build configuration list for PBXNativeTarget "Pods-RCMusicControlKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812A993637FB13A33B80B30D7B08BBBB /* Debug */,
+				BC4B486450BB9E4BDC748FEBEB5800F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7F396D0956E2696BEEB5BBB5A428D85 /* Build configuration list for PBXNativeTarget "RCMusicControlKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F797E28DD32C5CB9B806374013E22D18 /* Debug */,
+				4FCE025528BA6BDD658A08D2B9D10F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4879E9D8C3E1E939EBC824C9A978368 /* Build configuration list for PBXNativeTarget "Pods-RCMusicControlKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5E65A1B14848B63AF3F7BBCA3E044E9 /* Debug */,
+				5A50BA57EC55EE82596E5ECD2529E5CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

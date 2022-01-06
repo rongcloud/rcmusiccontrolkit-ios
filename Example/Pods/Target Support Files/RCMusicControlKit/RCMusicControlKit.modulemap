@@ -1,0 +1,6 @@
+framework module RCMusicControlKit {
+  umbrella header "RCMusicControlKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
