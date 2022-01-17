@@ -98,6 +98,11 @@
     }
 }
 
+//点击空白区域取dismiss
+- (void)dismissController {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 #pragma mark Self Delegate
 //跳转页面
 - (void)jumpToViewControllerWithPageType:(RCMusicPageType)pageType {
@@ -162,7 +167,20 @@
     }];
 }
 
+- (void)addTapView {
+    UIView *tapView = [[UIView alloc] init];
+    tapView.userInteractionEnabled = YES;
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(dismissController)];
+    [tapView addGestureRecognizer:tap];
+    [self.view addSubview:tapView];
+    [tapView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];
+}
+
 - (void)buildLayout {
+    
+    [self addTapView];
     
     [self.view addSubview:self.container];
     [self.container mas_makeConstraints:^(MASConstraintMaker *make) {

@@ -53,13 +53,12 @@
         }
         [self.avatarView sd_setImageWithURL:[NSURL URLWithString:info.coverUrl]];
         [self.marqueeView reloadData];
+        [self.marqueeView start];
+        [self startAnimation];
         alpha = 1;
-        if (self.musicName.length > 7) {
-            [self startAnimation];
-        }
     } else {
-        alpha = 0;
         [self stopAnimation];
+        alpha = 0;
     }
     [UIView animateWithDuration:0.5 animations:^{
         self.alpha = alpha;
@@ -116,8 +115,7 @@
         _marqueeView.timeDurationPerScroll = 2;
         _marqueeView.itemSpacing = 10;
         _marqueeView.useDynamicHeight = YES;
-        [self.marqueeView reloadData];
-        [self.marqueeView start];
+        _marqueeView.stopWhenLessData = YES;
     }
     return _marqueeView;
 }
@@ -133,8 +131,7 @@
 
 - (UIImageView *)bgView {
     if (_bgView == nil) {
-        _bgView = [[UIImageView alloc] init];
-        _bgView.backgroundColor = [UIColor redColor];
+        _bgView = [[UIImageView alloc] initWithImage:[UIImage rcm_imageNamed:@"music_bubble_small_bg"]];
     }
     return _bgView;
 }
