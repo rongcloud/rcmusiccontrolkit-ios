@@ -30,7 +30,7 @@
     if ([self integerValue] == 0) {
         NSAssert(NO, @"sizeFormatString string convert to int fail");
     }
-    return [NSByteCountFormatter stringFromByteCount:[self integerValue] * 1024 countStyle:NSByteCountFormatterCountStyleFile];;
+    return [NSByteCountFormatter stringFromByteCount:[self integerValue] * 1024 * 1024 countStyle:NSByteCountFormatterCountStyleFile];;
 }
 
 @end

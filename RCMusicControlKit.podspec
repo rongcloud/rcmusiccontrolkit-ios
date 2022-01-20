@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'RCMusicControlKit'
-  s.version          = '0.0.2'
+  s.version          = '0.0.2.1'
   s.summary          = 'RCMusicControlKit'
   s.description      = 'sub module of RCSceneKit, a flexible and configurable UI kit'
   s.homepage         = 'https://github.com/rongcloud/rcmusiccontrolkit-ios.git'
