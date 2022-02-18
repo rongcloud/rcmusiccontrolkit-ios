@@ -9,6 +9,7 @@
 #import "RCMusicControlCell.h"
 #import <Masonry/Masonry.h>
 #import "RCMusicEngine.h"
+#import "RCMusicDefine.h"
 
 #define rcm_Player [RCMusicEngine shareInstance].player
 
@@ -38,19 +39,21 @@ static NSArray *k_titleValues;
 
 - (void)dealloc {
     NSLog(@"RCMusicControlViewController dealloc");
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    
     NSUInteger localVolume = rcm_Player.localVolume;
     NSUInteger remoteVolume = rcm_Player.remoteVolume;
     NSUInteger micVolume = rcm_Player.micVolume;
     
-    k_titleValues = @[@{@"text":LocalVolumeKey,@"value":@(localVolume)},@{@"text":RemoteVolumeKey,@"value":@(remoteVolume)},@{@"text":MicVolumeKey,@"value":@(micVolume)},@{@"text":EarReturnKey,@"value":@(1)}];
+    k_titleValues = @[@{@"text":LocalVolumeKey,@"value":@(localVolume)},@{@"text":RemoteVolumeKey,@"value":@(remoteVolume)},@{@"text":MicVolumeKey,@"value":@(micVolume)},@{@"text":EarReturnKey,@"value":@(RCMusicEngine.shareInstance.openEarMonitoring)}];
 
     [self buildLayout];
     
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(setEarOpen:) name:RCMusicAsyncEarMonitoringNotification object:nil];
 }
 
 - (void)buildLayout {
@@ -99,5 +102,18 @@ static NSArray *k_titleValues;
         }
     }];
     return cell;
+}
+
+- (void)setEarOpen:(NSNotification *)noti {
+    
+    NSUInteger localVolume = rcm_Player.localVolume;
+
+    NSUInteger remoteVolume = rcm_Player.remoteVolume;
+
+    NSUInteger micVolume = rcm_Player.micVolume;
+
+    k_titleValues = @[@{@"text":LocalVolumeKey,@"value":@(localVolume)},@{@"text":RemoteVolumeKey,@"value":@(remoteVolume)},@{@"text":MicVolumeKey,@"value":@(micVolume)},@{@"text":EarReturnKey,@"value":@(RCMusicEngine.shareInstance.openEarMonitoring)}];
+
+    [self.tableView reloadData];
 }
 @end

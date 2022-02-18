@@ -37,6 +37,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak) id<RCMusicEngineDelegate> delegate;
 //音频数据操作，播放列表，线上音乐列表等数据的获取
 @property (nonatomic, weak) id<RCMusicEngineDataSource> dataSource;
+//耳返开关状态
+@property (nonatomic, assign) BOOL openEarMonitoring;
 //音乐信息气泡 showMusicInfoBubble == NO 时为nil
 //Engine不持有该View每次获取的对象不同
 @property (class, nonatomic, readonly, nullable) RCMusicInfoBubbleView *musicInfoBubbleView;
@@ -51,7 +53,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param state 播放器状态
 /// RCMusicMixingStatePlaying, RCMusicMixingStatePause, RCMusicMixingStateStop
 - (void)asyncMixingState:(RCMusicMixingState)state;
-
 @end
 
 NS_ASSUME_NONNULL_END

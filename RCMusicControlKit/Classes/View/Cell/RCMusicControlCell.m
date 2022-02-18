@@ -89,7 +89,7 @@
     self.titleLabel.text = cellData[@"text"];
     self.valueLabel.text = [cellData[@"value"] stringValue];
     self.rcmSlider.value = [cellData[@"value"] floatValue];
-    self.rcmSwitch.on = NO;
+    self.rcmSwitch.on = [cellData[@"value"] boolValue];;
 }
 + (NSString *)identifier {
     return @"RCMusicControlCellIdentifier";

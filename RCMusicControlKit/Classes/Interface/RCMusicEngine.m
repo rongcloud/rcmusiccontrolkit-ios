@@ -64,6 +64,13 @@ NSString *const RCMusicLocalDataChangedNotification = @"RCMusicLocalDataChangedN
     [[NSNotificationCenter defaultCenter] postNotificationName:RCMusicAsyncMixStateNotification object:info];
 }
 
+- (void)setOpenEarMonitoring:(BOOL)openEarMonitoring {
+    _openEarMonitoring = openEarMonitoring;
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [[NSNotificationCenter defaultCenter] postNotificationName:RCMusicAsyncEarMonitoringNotification object:nil];
+    });
+}
 
 + (RCMusicInfoBubbleView *)musicInfoBubbleView {
     RCMusicInfoBubbleView *bubble = [[RCMusicInfoBubbleView alloc] init];
